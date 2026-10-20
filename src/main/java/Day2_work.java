@@ -107,11 +107,11 @@ public class Day2_work {
         if ( BMI > 28){
             System.out.println("肥胖");
         }
-        if ( BMI <18.5){
+        else if ( BMI <18.5){
             System.out.println("偏瘦");
 
         }
-        if (BMI>=24&&BMI<=27.4){
+        else if (BMI>=24&&BMI<=27.4){
             System.out.println("偏胖");
         }
         else{
